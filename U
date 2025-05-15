@@ -1,0 +1,46 @@
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  font-size: 20px;
+  padding: 15px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+#result, #life, #timer {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+#restartBtn {
+  background-color: #ffe6e6;
+}
+
+#exitBtn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #ff4d4d;
+  color: white;
+  padding: 10px 20px;
+}
